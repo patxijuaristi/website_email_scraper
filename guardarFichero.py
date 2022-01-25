@@ -1,5 +1,4 @@
 import xlwt
-from modelos.web import Web
 
 class Fichero:
     
