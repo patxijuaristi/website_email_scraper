@@ -62,7 +62,7 @@ def scrapearEmail(url,pagina,user_agent_list, contador):
     return contacto
 
 def main(idioma):
-    if(idioma == 'EN'):
+    if(idioma.lower() == 'en'):
         listaPaginas=['contact','contact-us','contact-us.html']
     else:
         listaPaginas=['contacto','contactar','contactame','aviso-legal']
